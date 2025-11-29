@@ -391,3 +391,219 @@ For the best experience with search and interactive navigation, visit:
 **Built with ❤️ by the bioinformatics community**
 
 *Last updated: November 2025*
+
+
+---
+
+## 📖 Additional Recommended Resources
+
+### Harvard Informatics Learning Resources
+
+#### Unix/Command Line
+- [Greg Wilson's YouTube videos on the Unix shell](https://www.youtube.com/watch?v=U3iNcBtycaQ) - Excellent introduction
+- [Introduction to the Command Line for Genomics](https://datacarpentry.org/shell-genomics/) - Data Carpentry tutorial
+- [Lockdown Learning - Bioinformatics](https://www.youtube.com/playlist?list=PLzfP3sCXUnxEu5S9oXni1zmc1sjYmT1L9) - Daily livestreamed lessons
+- [Advanced Beginner/Intermediate Shell](https://github.com/ngs-docs/2016-adv-begin-shell-genomics) - For those ready to go deeper
+- [Bioinformatics One-Liners - Steven Turner](https://github.com/stephenturner/oneliners) - Useful command-line tricks
+- [Bioinformatics One-Liners - Ming Tang](https://github.com/crazyhottommy/bioinformatics-one-liners) - More command-line examples
+
+#### R Resources
+- [Data Analysis for the Life Sciences Series](http://rafalab.github.io/pages/harvardx.html) - Rafael Irizarry course
+- [Introduction to Computational Biology](https://biodatascience.github.io/compbio/) - By Mike Love (DESeq2 author)
+- [Introduction to Bioconductor](https://www.edx.org/course/introduction-to-bioconductor-annotation-and-analys) - Free edX course
+- [R for Data Science](https://r4ds.had.co.nz/) - Hadley Wickham
+- [Advanced Bioconductor](https://www.edx.org/course/advanced-bioconductor) - Advanced genomic analysis
+- [Advanced R](https://adv-r.hadley.nz/) - Advanced R programming
+
+#### Python Resources
+- [Using Python for Research](http://rafalab.github.io/pages/harvardx.html) - Harvard course materials
+- [Intermediate Python](https://github.com/yasoob/intermediatePython) - Beyond basics
+- [Checkio](https://py.checkio.org/) - Python coding game for practice
+
+#### Statistics & Bioinformatics Theory
+- [Modern Statistics for Modern Biology](http://web.stanford.edu/class/bios221/book/index.html) - Free online book
+- [Rosalind](http://rosalind.info/problems/locations/) - Problem-solving exercises in computational biology
+- [JHU Computational Genomics notebooks](https://github.com/BenLangmead/comp-genomics-class) - Learn alignment algorithms
+
+### Additional RNA-Seq Resources
+
+ - [Sydney Informatics Hub RNA-seq tutorial 2023](https://sydney-informatics-hub.github.io/rnaseq-workshop-2023/) - From raw reads to differential expression
+- [Introduction to differential gene expression analysis (Cornell)](https://doi.org/10.5281/zenodo.3985046) - Comprehensive tutorial
+- [RNA-seq analysis is easy as 1-2-3 with limma, Glimma and edgeR](https://f1000research.com/articles/5-1408/v3) - Practical edgeR tutorial
+- [Review papers on RNA-seq (Biostars)](https://www.biostars.org/p/52152/) - Collection of seminal papers
+- [Informatics for RNA-seq on the cloud](https://github.com/griffithlab/rnaseq_tutorial) - Cloud-based RNA-seq
+- [RNA-seqlopedia](http://rnaseq.uoregon.edu/) - Comprehensive RNA-seq overview
+- [A survey of best practices for RNA-seq](http://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0881-8) - Computational analysis roadmap
+- [Stories from the Supplement](https://www.youtube.com/watch?v=5NiFibnbE8o) - Lior Pachter on CuffDiff methodology
+
+### Specialized Analysis Resources
+
+#### ChIP-Seq
+- [ChIP-seq analysis notes from Tommy Tang](https://github.com/crazyhottommy/ChIP-seq-analysis) - Papers, methods, tools
+
+#### Genomics
+- [Computational Genomics Tutorial](https://genomics.sschmeier.com/index.html) - Complete NGS workflow tutorial
+- [Sanger Pathogen Informatics Training](https://github.com/sanger-pathogens/pathogen-informatics-training) - Microbial genomics
+
+### Learning Platforms & Practice
+
+| Platform | Description | URL |
+|----------|-------------|-----|
+| **Bioinformatics Workbook** | Comprehensive tutorials | [bioinformaticsworkbook.org](https://bioinformaticsworkbook.org/) |
+| **SequenceEng** | Seq applications and pipelines | [education.knoweng.org/sequenceng](http://education.knoweng.org/sequenceng/) |
+| **Rosalind** | Bioinformatics problem sets | [rosalind.info](http://rosalind.info/) |
+| **Checkio** | Python coding challenges | [py.checkio.org](https://py.checkio.org/) |
+
+---
+
+## 🔬 Package Suites & Frameworks
+
+### Bioinformatics Frameworks by Language
+
+| Framework | Language | Description | Link |
+|-----------|----------|-------------|------|
+| **Biopython** | Python | Biological computation toolkit | [biopython.org](https://biopython.org) |
+| **Bioconductor** | R | 1500+ genomics packages | [bioconductor.org](https://www.bioconductor.org) |
+| **Bioperl** | Perl | Perl tools for bioinformatics | [bioperl.org](https://bioperl.org) |
+| **BioJulia** | Julia | Julia bioinformatics infrastructure | [biojulia.net](https://biojulia.net) |
+| **Biojava** | Java | Java framework | [biojava.org](http://biojava.org/) |
+| **Rust-Bio** | Rust | Rust implementations | [rust-bio](https://github.com/rust-bio/rust-bio) |
+| **SeqAn** | C++ | Modern C++ sequence analysis | [seqan.de](https://www.seqan.de/) |
+| **Biocaml** | OCaml | High-performance library | [biocaml](https://github.com/biocaml/biocaml) |
+
+### Package Managers
+
+- **Bioconda** - 3000+ ready-to-install bioinformatics packages via conda ([bioconda.github.io](https://bioconda.github.io))
+
+---
+
+## 🎓 Advanced Learning Topics
+
+### Sequencing Technology Overview
+- [Next-Generation Sequencing Technologies - Elaine Mardis](https://youtu.be/6Is3W7JkFp8) - Technical overview of NGS and 3rd-gen sequencing
+- [Annotated bibliography of *Seq assays](https://liorpachter.wordpress.com/seq/) - ~100 papers on various sequencing technologies
+- [For all you seq... Illumina Infographic](http://www.illumina.com/content/dam/illumina-marketing/documents/applications/ngs-library-prep/ForAllYouSeqMethods.pdf) - Comprehensive sequencing techniques
+
+### Git & Version Control
+- [Software Carpentry Git](https://swcarpentry.github.io/git-novice/) - Essential version control
+- [GitHub Skills](https://skills.github.com/) - Interactive GitHub learning
+
+### Bash Best Practices
+- [Use the Unofficial Bash Strict Mode](http://redsymbol.net/articles/unofficial-bash-strict-mode/) - Better error handling
+- [Better Bash Scripting in 15 Minutes](http://robertmuth.blogspot.com/2012/08/better-bash-scripting-in-15-minutes.html) - Quick improvements
+- [Bash Pitfalls](http://mywiki.wooledge.org/BashPitfalls) - Common mistakes to avoid
+- [Using Named Pipes in Bioinformatics](http://vincebuffalo.org/blog/2013/08/08/using-names-pipes-and-process-substitution-in-bioinformatics.html) - Advanced techniques
+
+---
+
+## 📊 Data Download & Management
+
+### Data Acquisition Tools
+
+| Tool | Description | Link |
+|------|-------------|------|
+| **GGD (Go Get Data)** | Command-line for genomic data | [gogetdata.github.io](https://gogetdata.github.io) |
+| **SRA-Explorer** | Easily get SRA download links | [sra-explorer.info](https://sra-explorer.info) |
+| **Genozip** | Universal genomic data compressor | [genozip.com](https://genozip.com/) |
+
+---
+
+## 🎬 YouTube Channels & Video Resources
+
+### Featured Channel
+
+🎥 **[Bioinformatics with BB](https://www.youtube.com/@BioinformaticswithBB)**
+- Comprehensive bioinformatics tutorials
+- Practical workflow demonstrations
+- Tool guides and best practices
+- **Recommended for all levels**
+
+### Other Popular Channels
+
+| Channel | Focus | Subscribers | Link |
+|---------|-------|-------------|------|
+| **StatQuest** | Statistics, ML concepts | 1.3M+ | [YouTube](https://www.youtube.com/c/joshstarmer) |
+| **Data Professor** | Data science, bioinformatics | 200K+ | [YouTube](https://www.youtube.com/c/DataProfessor) |
+| **EMBL-EBI Training** | Official EBI tutorials | - | [YouTube](https://www.youtube.com/c/EMBLEBItraining) |
+| **Broad Institute** | Genomics | - | [YouTube](https://www.youtube.com/c/BroadInstitute) |
+| **LiquidBrain Bioinformatics** | R tutorials | 30K+ | [YouTube](https://www.youtube.com/c/LiquidBrain) |
+| **EMBL-ABR** | Australian training | - | [YouTube](https://www.youtube.com/channel/UC5WlFNBSfmt3e8Js8o2fFqQ/videos) |
+
+---
+
+## 📚 Books & Textbooks
+
+### Beginner
+- **Bioinformatics for Dummies** by Claverie & Notredame - Accessible introduction
+- **Python for Biologists** by Martin Jones - Programming focus
+- **R for Data Science** by Wickham & Grolemund - Data analysis (Free online)
+
+### Intermediate/Advanced
+- **Bioinformatics Algorithms** by Compeau & Pevzner - Algorithm design
+- **Modern Statistics for Modern Biology** by Holmes & Huber - Statistics with R (Free online)
+- **Biological Sequence Analysis** by Durbin et al. - HMMs and algorithms
+- **Advanced R** by Hadley Wickham - Advanced R programming (Free online)
+
+---
+
+## 👥 Communities & Forums
+
+| Platform | Focus | Link |
+|----------|-------|------|
+| **Biostars** | Bioinformatics Q&A | [biostars.org](https://www.biostars.org/) |
+| **SEQanswers** | NGS-focused | [seqanswers.com](http://seqanswers.com/) |
+| **r/bioinformatics** | Reddit community | [reddit.com/r/bioinformatics](https://www.reddit.com/r/bioinformatics/) |
+| **nf-core Slack** | Nextflow community | [nf-co.re/join](https://nf-co.re/join) |
+| **R4DS Slack** | R for Data Science | [rfordatasci.com](https://www.rfordatasci.com/) |
+
+---
+
+## 🔗 Other Awesome Lists
+
+This repository builds upon and complements these excellent resources:
+
+- [Awesome-Bioinformatics](https://github.com/danielecook/Awesome-Bioinformatics) - Curated list of bioinformatics tools (3.5K+ stars)
+- [Harvard Informatics - Learning at Home](https://github.com/harvardinformatics/learning-bioinformatics-at-home) - Harvard curated resources
+- [Monash Bioinformatics Platform Learning Links](https://github.com/MonashBioinformaticsPlatform/learning-resource-links) - Comprehensive Australian resources
+- [awesome-single-cell](https://github.com/seandavi/awesome-single-cell) - Single-cell resources (2.5K+ stars)
+- [awesome-deepbio](https://github.com/hussius/deeplearning-biology) - Deep learning in biology (2K+ stars)
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on:
+- Adding new resources
+- Fixing broken links
+- Improving documentation
+- Suggesting new topics
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see [LICENSE](LICENSE) for details.
+
+---
+
+## 🌐 Documentation Website
+
+For the best experience with search and interactive navigation, visit:
+**https://babajan-b.github.io/Bioinformatics-Learning-Resources/**
+
+---
+
+## 🙏 Acknowledgments
+
+This resource aggregates and builds upon excellent work from:
+- Harvard Informatics Group
+- Monash Bioinformatics Platform
+- Awesome-Bioinformatics community
+- And hundreds of contributors worldwide
+
+---
+
+**Created by**: [Bioinformatics with BB](https://www.youtube.com/@BioinformaticswithBB) 🎥  
+**Built with ❤️ by the bioinformatics community**
+
+*Last updated: November 2025*
