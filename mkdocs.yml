@@ -1,0 +1,292 @@
+site_name: Bioinformatics Learning Hub
+site_url: https://babajan-b.github.io/Bioinformatics-Learning-Resources/
+site_author: Bioinformatics Learning Community
+site_description: >-
+  A comprehensive learning resource for bioinformatics, from beginner
+  to advanced levels, covering genomics, transcriptomics, proteomics,
+  and computational methods.
+
+# Repository
+repo_name: Babajan-B/Bioinformatics-Learning-Resources
+repo_url: https://github.com/Babajan-B/Bioinformatics-Learning-Resources
+edit_uri: edit/main/docs/
+
+# Copyright
+copyright: Copyright &copy; 2024 Bioinformatics Learning Community
+
+# Configuration
+theme:
+  name: material
+  language: en
+  
+  # Color scheme
+  palette:
+    # Light mode
+    - scheme: default
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    
+    # Dark mode
+    - scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  
+  # Fonts
+  font:
+    text: Roboto
+    code: Roboto Mono
+  
+  # Logo and icons
+  icon:
+    repo: fontawesome/brands/github
+    logo: material/dna
+  
+  # Features
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - content.tooltips
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.path
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - toc.integrate
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
+  - tags:
+      tags_file: reference/tags.md
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+
+# Extensions
+markdown_extensions:
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Additional CSS and JavaScript
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+# Extra features
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Babajan-B/Bioinformatics-Learning-Resources
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@BioinformaticswithBB
+  
+  tags:
+    Genomics: genomics
+    Transcriptomics: transcriptomics
+    Proteomics: proteomics
+    Algorithms: algorithms
+    Tutorial: tutorial
+    Reference: reference
+
+# Navigation
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Quick Start: getting-started.md
+      - Navigation Guide: navigation-guide.md
+  
+  - Beginner:
+      - beginner/index.md
+      - Foundations:
+          - Biology Basics: beginner/foundations/biology-basics.md
+          - Molecular Biology: beginner/foundations/molecular-biology.md
+          - Genetics Introduction: beginner/foundations/genetics-intro.md
+          - Central Dogma: beginner/foundations/central-dogma.md
+      - Computational Skills:
+          - Programming Basics: beginner/computational/programming-basics.md
+          - Python for Bioinformatics: beginner/computational/python-for-bio.md
+          - R Basics: beginner/computational/r-basics.md
+          - Unix Command Line: beginner/computational/unix-command-line.md
+      - Bioinformatics Intro:
+          - What is Bioinformatics: beginner/bioinformatics-intro/what-is-bioinformatics.md
+          - Sequence Analysis: beginner/bioinformatics-intro/sequence-analysis.md
+          - Databases Introduction: beginner/bioinformatics-intro/databases-intro.md
+          - File Formats: beginner/bioinformatics-intro/file-formats.md
+      - Hands-on Tutorials:
+          - First BLAST Search: beginner/hands-on-tutorials/first-blast-search.md
+          - NCBI Exploration: beginner/hands-on-tutorials/ncbi-exploration.md
+          - Simple Alignment: beginner/hands-on-tutorials/simple-alignment.md
+  
+  - Intermediate:
+      - intermediate/index.md
+      - Sequence Analysis:
+          - Multiple Alignment: intermediate/sequence-analysis/multiple-alignment.md
+          - Phylogenetics: intermediate/sequence-analysis/phylogenetics.md
+          - Motif Finding: intermediate/sequence-analysis/motif-finding.md
+          - HMM Profiles: intermediate/sequence-analysis/hmm-profiles.md
+      - Genomics:
+          - NGS Technologies: intermediate/genomics/ngs-technologies.md
+          - Genome Assembly: intermediate/genomics/genome-assembly.md
+          - Variant Calling: intermediate/genomics/variant-calling.md
+          - Annotation: intermediate/genomics/annotation.md
+      - Transcriptomics:
+          - RNA-seq Introduction: intermediate/transcriptomics/rna-seq-intro.md
+          - Differential Expression: intermediate/transcriptomics/differential-expression.md
+          - Pathway Analysis: intermediate/transcriptomics/pathway-analysis.md
+          - Single-cell Basics: intermediate/transcriptomics/single-cell-basics.md
+      - Proteomics:
+          - Protein Structure: intermediate/proteomics/protein-structure.md
+          - Mass Spectrometry Basics: intermediate/proteomics/mass-spec-basics.md
+          - Functional Annotation: intermediate/proteomics/functional-annotation.md
+      - Algorithms:
+          - Dynamic Programming: intermediate/algorithms/dynamic-programming.md
+          - Graph Algorithms: intermediate/algorithms/graph-algorithms.md
+          - Machine Learning Intro: intermediate/algorithms/machine-learning-intro.md
+      - Practical Projects:
+          - RNA-seq Pipeline: intermediate/practical-projects/rna-seq-pipeline.md
+          - Variant Analysis: intermediate/practical-projects/variant-analysis.md
+          - Phylogenetic Tree: intermediate/practical-projects/phylogenetic-tree.md
+  
+  - Advanced:
+      - advanced/index.md
+      - Specialized Omics:
+          - Metagenomics: advanced/specialized-omics/metagenomics.md
+          - Epigenomics: advanced/specialized-omics/epigenomics.md
+          - Metabolomics: advanced/specialized-omics/metabolomics.md
+          - Multi-omics Integration: advanced/specialized-omics/multi-omics-integration.md
+      - Advanced Genomics:
+          - Population Genomics: advanced/advanced-genomics/population-genomics.md
+          - Structural Variants: advanced/advanced-genomics/structural-variants.md
+          - Long-read Sequencing: advanced/advanced-genomics/long-read-sequencing.md
+          - Cancer Genomics: advanced/advanced-genomics/cancer-genomics.md
+      - Computational Methods:
+          - Deep Learning: advanced/computational-methods/deep-learning.md
+          - Network Biology: advanced/computational-methods/network-biology.md
+          - Systems Biology: advanced/computational-methods/systems-biology.md
+          - Algorithm Optimization: advanced/computational-methods/algorithm-optimization.md
+      - Specialized Tools:
+          - Workflow Managers: advanced/specialized-tools/workflow-managers.md
+          - Container Technologies: advanced/specialized-tools/container-technologies.md
+          - Cloud Computing: advanced/specialized-tools/cloud-computing.md
+          - HPC Environments: advanced/specialized-tools/hpc-environments.md
+      - Drug Discovery:
+          - Molecular Docking: advanced/drug-discovery/molecular-docking.md
+          - Virtual Screening: advanced/drug-discovery/virtual-screening.md
+          - QSAR Modeling: advanced/drug-discovery/qsar-modeling.md
+      - Research Projects:
+          - Metagenome Analysis: advanced/research-projects/metagenome-analysis.md
+          - GWAS Pipeline: advanced/research-projects/gwas-pipeline.md
+          - Drug Target Prediction: advanced/research-projects/drug-target-prediction.md
+  
+  - Resources:
+      - resources/index.md
+      - Tools:
+          - Essential Tools: resources/tools/essential-tools.md
+          - Web-based Tools: resources/tools/web-based-tools.md
+          - Command-line Tools: resources/tools/command-line-tools.md
+          - Visualization Tools: resources/tools/visualization-tools.md
+      - Databases:
+          - Sequence Databases: resources/databases/sequence-databases.md
+          - Structure Databases: resources/databases/structure-databases.md
+          - Genomic Databases: resources/databases/genomic-databases.md
+          - Specialized Databases: resources/databases/specialized-databases.md
+      - Datasets:
+          - Public Datasets: resources/datasets/public-datasets.md
+          - Benchmark Datasets: resources/datasets/benchmark-datasets.md
+          - Example Data: resources/datasets/example-data.md
+      - Learning Materials:
+          - Textbooks: resources/books-and-courses/textbooks.md
+          - Online Courses: resources/books-and-courses/online-courses.md
+          - Video Tutorials: resources/books-and-courses/video-tutorials.md
+          - Interactive Learning: resources/books-and-courses/interactive-learning.md
+      - Communities:
+          - Forums & Q&A: resources/communities/forums-and-qa.md
+          - Conferences: resources/communities/conferences.md
+          - Open Source Projects: resources/communities/open-source-projects.md
+  
+  - Learning Pathways:
+      - pathways/index.md
+      - Genomics Specialist: pathways/genomics-specialist.md
+      - Computational Biologist: pathways/computational-biologist.md
+      - Data Scientist: pathways/data-scientist.md
+      - Structural Biologist: pathways/structural-biologist.md
+  
+  - Workflows:
+      - RNA-seq Workflow: workflows/rna-seq-workflow.md
+      - Variant Analysis Workflow: workflows/variant-analysis-workflow.md
+      - Metagenomics Workflow: workflows/metagenomics-workflow.md
+      - Protein Analysis Workflow: workflows/protein-analysis-workflow.md
+  
+  - Reference:
+      - Glossary: reference/glossary.md
+      - File Formats: reference/file-formats-reference.md
+      - Quick Reference Cards: reference/quick-reference-cards.md
+      - Troubleshooting: reference/troubleshooting.md
+      - Tags: reference/tags.md
